@@ -1,0 +1,41 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 70vh;
+  width: 100vw;
+  color : white;
+}
+
+.content {
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;
+  border-right: 1px solid white;
+}
+
+.imageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  height: 80%;
+  width: 50%;
+
+}
+
+.lines{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+
+.image{
+  height: 50%;
+  width: 70%;
+  align-self: center;
+}

@@ -1,0 +1,17 @@
+.logo{
+    padding-left: 3rem;
+}
+
+.linkContianer{
+    display: flex;
+}
+
+.link{
+    padding-right: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
