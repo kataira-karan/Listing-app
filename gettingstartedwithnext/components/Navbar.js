@@ -16,7 +16,7 @@ const Navbar = () => {
           Listing
         </Link>
         <Link className={styles.link} href="/aboutus">
-          About Us
+          About App
         </Link>
       </div>
     </nav>

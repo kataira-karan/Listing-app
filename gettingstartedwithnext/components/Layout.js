@@ -1,11 +1,12 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import styles from "../styles/Home.module.css";
 
 const Layout = ({ children }) => {
   return (
-    <div className="content">
+    <div>
       <Navbar></Navbar>
-      {children}
+      <div className={styles.cover}>{children}</div>
       <Footer></Footer>
     </div>
   );
